@@ -1,85 +1,122 @@
-/* This CSS file is for the Aura component related to the user story requirement mentioned above. */
+Aura Component CSS File
 
-/* Folder Structure */
-.folder-structure {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+/*------ Folder Structure ------*/ 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
-
-/* Multiple Component Selection */
-.component-selection {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+ 
+/*------ Multiple Component Selection ------*/
+.component-selector {
+  display: flex;
+  justify-content: center;
 }
-
-/* Custom Objects Creation */
+.component-selector input {
+  margin: 0 5px;
+}
+ 
+/*------ Custom Objects ------*/
 .custom-objects {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
-
-/* Multiple Components in LWC */
-.lwc-components {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+.custom-objects h3 {
+  font-size: 1.25em;
+  padding: 0.5em 0;
 }
-
-/* Connectivity Between Apex & LWC */
-.apex-lwc-connectivity {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+.custom-objects ul {
+  list-style: none;
+  padding: 0;
 }
-
-/* Unit Test Implementation */
-.unit-test {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+.custom-objects li {
+  margin: 0.5em 0;
 }
-
-/* Sandbox Integration */
+ 
+/*------ Multiple Components ------*/
+.multiple-components {
+  display: flex;
+  flex-direction: column;
+}
+.multiple-components h3 {
+  font-size: 1.25em;
+  padding: 0.5em 0;
+}
+.multiple-components ul {
+  list-style: none;
+  padding: 0;
+}
+.multiple-components li {
+  margin: 0.5em 0;
+}
+ 
+/*------ Connectivity ------*/
+.connectivity {
+  display: flex;
+  justify-content: center;
+}
+.connectivity input {
+  margin: 0 5px;
+}
+ 
+/*------ Unit Tests ------*/
+.unit-tests {
+  display: flex;
+  justify-content: center;
+}
+.unit-tests input {
+  margin: 0 5px;
+}
+ 
+/*------ Sandbox Integration ------*/
 .sandbox-integration {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
-
-/* Sequence of User Story Execution */
-.user-story-execution {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+.sandbox-integration input {
+  margin: 0 5px;
 }
-
-/* Merging New Functionality */
-.merging-functionality {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+ 
+/*------ Sequence of User Stories ------*/
+.sequence-user-stories {
+  display: flex;
+  justify-content: center;
 }
-
-/* Deployment Process */
+.sequence-user-stories input {
+  margin: 0 5px;
+}
+ 
+/*------ Merging New Functionality ------*/
+.merge-functionality {
+  display: flex;
+  justify-content: center;
+}
+.merge-functionality input {
+  margin: 0 5px;
+}
+ 
+/*------ Deployment Process ------*/
 .deployment-process {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
-
-/* AWS Lambda to Containerized Lambda Function Development */
-.lambda-function-development {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+.deployment-process input {
+  margin: 0 5px;
 }
-
-/* Application Access for Pilot Testing */
-.pilot-testing {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+ 
+/*------ AWS Lambda ------*/
+.aws-lambda {
+  display: flex;
+  justify-content: center;
+}
+.aws-lambda input {
+  margin: 0 5px;
+}
+ 
+/*------ Application Access ------*/
+.application-access {
+  display: flex;
+  justify-content: center;
+}
+.application-access input {
+  margin: 0 5px;
 }

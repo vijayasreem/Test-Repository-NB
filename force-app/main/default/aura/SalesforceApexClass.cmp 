@@ -1,18 +1,29 @@
-CMP File
+cmp file:
 
-<?xml version="1.0" encoding="UTF-8"?>
-<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>45.0</apiVersion>
-    <description>Aura Component for Salesforce Requirement</description>
-    <isExposed>true</isExposed>
-    <masterLabel>Aura Component</masterLabel>
-    <targets>
-        <target>lightning__AppPage</target>
-        <target>lightning__RecordPage</target>
-    </targets>
-    <types>
-        <members>*</members>
-        <name>Aura</name>
-    </types>
-    <version>1.0</version>
-</AuraDefinitionBundle>
+<aura:component>
+    <aura:attribute name="selectedComponents" type="String[]" />
+    <aura:attribute name="selectedObjects" type="String[]" />
+    <aura:attribute name="lwcComponents" type="Object[]" />
+    <aura:attribute name="apexClasses" type="String[]" />
+    <aura:attribute name="unitTests" type="String[]" />
+    <aura:attribute name="sandboxIntegration" type="Boolean" />
+    <aura:attribute name="existingComponents" type="String[]" />
+    <aura:attribute name="deploymentProcess" type="String" />
+    <aura:attribute name="awsLambda" type="String" />
+    <aura:attribute name="project" type="String" />
+    <aura:attribute name="pilotTesting" type="Boolean" />
+
+    <!-- Actions -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler name="createFolders" value="{!this}" action="{!c.doCreateFolders}" />
+    <aura:handler name="createComponents" value="{!this}" action="{!c.doCreateComponents}" />
+    <aura:handler name="connectComponents" value="{!this}" action="{!c.doConnectComponents}" />
+    <aura:handler name="connectApexClasses" value="{!this}" action="{!c.doConnectApexClasses}" />
+    <aura:handler name="createUnitTests" value="{!this}" action="{!c.doCreateUnitTests}" />
+    <aura:handler name="executeSandboxIntegration" value="{!this}" action="{!c.doExecuteSandboxIntegration}" />
+    <aura:handler name="mergeFunctionality" value="{!this}" action="{!c.doMergeFunctionality}" />
+    <aura:handler name="deployCode" value="{!this}" action="{!c.doDeployCode}" />
+    <aura:handler name="deployToPlatformToday" value="{!this}" action="{!c.doDeployToPlatformToday}" />
+    <aura:handler name="grantPilotTestingAccess" value="{!this}" action="{!c.doGrantPilotTestingAccess}" />
+
+</aura:component>
