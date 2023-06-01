@@ -1,0 +1,85 @@
+/* This CSS file is for the Aura component related to the user story requirement mentioned above. */
+
+/* Folder Structure */
+.folder-structure {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+/* Multiple Component Selection */
+.component-selection {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* Custom Objects Creation */
+.custom-objects {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+/* Multiple Components in LWC */
+.lwc-components {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+/* Connectivity Between Apex & LWC */
+.apex-lwc-connectivity {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+/* Unit Test Implementation */
+.unit-test {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* Sandbox Integration */
+.sandbox-integration {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+/* Sequence of User Story Execution */
+.user-story-execution {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+/* Merging New Functionality */
+.merging-functionality {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+/* Deployment Process */
+.deployment-process {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+/* AWS Lambda to Containerized Lambda Function Development */
+.lambda-function-development {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* Application Access for Pilot Testing */
+.pilot-testing {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuraDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Project</masterLabel>
+    <description>Project for Salesforce requirement user story</description>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__HomePage,lightning__RecordPage">
+            <components>
+                <component>
+                    <name>c:folder_structure_implementation_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:multiple_component_selection_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:custom_objects_creation_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:multiple_components_in_lwc_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:connectivity_between_apex_classes_and_lwc_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:unit_tests_implementation_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:sandbox_integration_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:sequence_of_user_stories_execution_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:merging_new_functionality_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:deployment_process_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:aws_lambda_development_cmp</name>
+                    <description />
+                </component>
+                <component>
+                    <name>c:application_access_cmp</name>
+                    <description />
+                </component>
+            </components>
+        </targetConfig>
+    </targetConfigs>
+</AuraDefinition>

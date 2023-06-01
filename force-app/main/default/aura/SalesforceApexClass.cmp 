@@ -1,0 +1,18 @@
+CMP File
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>45.0</apiVersion>
+    <description>Aura Component for Salesforce Requirement</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Aura Component</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <types>
+        <members>*</members>
+        <name>Aura</name>
+    </types>
+    <version>1.0</version>
+</AuraDefinitionBundle>
