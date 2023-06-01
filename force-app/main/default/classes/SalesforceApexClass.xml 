@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <status>Active</status>
+    <description>This Apex class is used to implement the folder structure, multiple component selection, custom objects creation, multiple components in LWC and connectivity between them, Apex classes and LWC components, unit tests implementation, sandbox integration, sequence of user stories execution, merging functionality into existing components/files, deployment process for generated code, AWS Lambda to containerized lambda function development, and application access for pilot testing.</description>
+</ApexClass>
